@@ -2,18 +2,18 @@ h1 {
   color: blue;
 }
 
-.title {
+#title {
   background-color: red;
 }
 
-.pageIntro {
+#pageIntro {
   background-color: green;
 }
 
-.personalIntro {
+#personalIntro {
   background-color: yellow;
 }
 
-.links {
+#links {
   background-color: black;
 }
