@@ -1,0 +1,19 @@
+h1 {
+  color: blue;
+}
+
+.title {
+  background-color: red;
+}
+
+.pageIntro {
+  background-color: green;
+}
+
+.personalIntro {
+  background-color: yellow;
+}
+
+.links {
+  background-color: black;
+}
