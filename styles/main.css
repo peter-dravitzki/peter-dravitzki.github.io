@@ -21,3 +21,9 @@ h1 {
 #article {
   background-color: rgb(228, 26, 60);
 }
+
+@media all and (max-width: 400px) {
+  #title {
+    color: white;
+  }
+}
