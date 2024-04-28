@@ -8,50 +8,72 @@
       charset="utf-8"
     />
     <link rel="stylesheet" href="/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    />
   </head>
 
   <body>
-    <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid">
-        <span class="navbar-text" id="title"> Welcome to My Page! </span>
+    <nav class="level">
+      <div class="block level-item">
+        <span id="title"> Welcome to My Page! </span>
       </div>
     </nav>
+    <nav class="level">
+      <div id="pageIntro" class="block level-item">
+        <p>This is the beginning of my website home page.</p>
+        <p>It will eventually contain a list of links to all my blogs.</p>
+      </div>
+    </nav>
+    <nav class="level">
+      <div id="personalIntro" class="block level-item">
+        <figure class="image is-128x128">
+          <img
+            class="is-rounded"
+            src="imgs/profile.jpg"
+            alt="Peter's profile pic"
+          />
+        </figure>
 
-    <div id="pageIntro">
-      <p>This is the beginning of my website home page.</p>
-      <p>It will eventually contain a list of links to all my blogs.</p>
-    </div>
-    <div id="personalIntro">
-      <img src="imgs/profile.jpg" alt="Peter's profile pic" />
-      <p>
-        Hi im Peter, I have been a gardener since 2014 but due to ongoing
-        injuries and pestering from my wife and family i am continuing my
-        programming journey I started it 2007
-      </p>
-    </div>
-    <div id="links">
-      <p><a href="blog/te-houtaewa-template.html">Te Houtaewa</a></p>
-      <p>
-        <a href="blog/inlineBlockDifferencesBlog.html"
-          >Inline vs Inline-Block</a
-        >
-      </p>
-      <p>
-        <a href="blog/emotional-intelligence.html">Emotional Intelligence</a>
-      </p>
-      <p><a href="blog/neuroplasticity.html">Neuroplasticity</a></p>
-      <p>
-        <a href="blog/learning-plan.html">Learning Plan</a>
-      </p>
-      <p>
-        <a href="blog/identity-values.html">Identity and values</a>
-      </p>
-      <p>
-        <a href="blog/foundations-reflections.html">Foundations Reflections</a>
-      </p>
-      <p>
-        <a href="blog/problem-solving.html">Problem Solving</a>
-      </p>
-    </div>
+        <p>
+          Hi im Peter, I have been a gardener since 2014 but due to ongoing
+          injuries and pestering from my wife and family i am continuing my
+          programming journey I started it 2007
+        </p>
+      </div>
+    </nav>
+    <nav class="level">
+      <div id="links" class="block level-item level">
+        <p class="block level-item">
+          <a href="blog/te-houtaewa-template.html">Te Houtaewa</a>
+        </p>
+        <p class="block level-item">
+          <a href="blog/inlineBlockDifferencesBlog.html"
+            >Inline vs Inline-Block</a
+          >
+        </p>
+        <p class="block level-item">
+          <a href="blog/emotional-intelligence.html">Emotional Intelligence</a>
+        </p>
+        <p class="block level-item">
+          <a href="blog/neuroplasticity.html">Neuroplasticity</a>
+        </p>
+        <p class="block level-item">
+          <a href="blog/learning-plan.html">Learning Plan</a>
+        </p>
+        <p class="block level-item">
+          <a href="blog/identity-values.html">Identity and values</a>
+        </p>
+        <p class="block level-item">
+          <a href="blog/foundations-reflections.html"
+            >Foundations Reflections</a
+          >
+        </p>
+        <p class="block level-item last-block">
+          <a href="blog/problem-solving.html">Problem Solving</a>
+        </p>
+      </div>
+    </nav>
   </body>
 </html>
