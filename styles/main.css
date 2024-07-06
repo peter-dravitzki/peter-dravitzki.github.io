@@ -1,45 +1,84 @@
-h1 {
-  color: blue;
-}
-p {
-  margin: auto;
-  padding: 20px;
+@import url('https://fonts.googleapis.com/css?family=Aldrich|Average+Sans|Ropa+Sans');
+
+.navbar-brand {
+  font-size: 20px;
+  color: rgb(10, 10, 20);
+  font-family: 'Average Sans', sans-serif;
 }
 
-#title {
-  margin: auto;
-  padding: 20px;
+#home {
+  background: url(https://previews.123rf.com/images/jsddesign/jsddesign1610/jsddesign161000001/66775493-Abstract-background-with-Web-programming-Script-Stock-Photo.jpg)
+    no-repeat;
+  background-size: cover;
+  margin: 0px;
 }
 
-#pageIntro {
-  border: 4px black solid;
-  margin: 20px 50px;
-  padding: 20px;
+#aboutme {
+  font-family: Ropa Sans;
+  background: url(http://www.datafactory.la/wp-content/themes/datafactory/images/fondo_radial.jpg)
+    no-repeat;
+  background-size: cover;
+  margin: 0px;
 }
 
-#personalIntro {
-  border: 4px black solid;
-  margin: 20px 50px;
-  padding: 20px;
+#projects {
+  background: url(http://www.qygjxz.com/data/out/175/4908762-pattern-images.jpg)
+    no-repeat;
+  background-size: cover;
+  margin: 0px;
 }
 
-#links {
-  border: 4px black solid;
-  margin: 20px 50px;
-  padding: 20px;
+#contact {
+  background-color: blue;
+  margin: 0px;
 }
 
-#article {
-  border: 4px black solid;
-  margin: 20px 50px;
-  padding: 20px;
+.person {
+  font-family: Arial, 'monospace';
+  font-size: 50px;
+  color: black;
+  margin-top: 250px;
 }
 
-.last-block {
-  padding-bottom: 25px;
+#brief {
+  font-family: Aldrich, 'monospace';
+  font-size: 40px;
+  color: rgb(50, 200, 50);
+  margin-top: 150px;
 }
-@media all and (max-width: 400px) {
-  #title {
-    color: white;
-  }
+
+#mypic {
+  margin-top: 100px;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+#bio {
+  font-family: Average Sans, 'monospace';
+  font-size: 20px;
+  color: rgb(90, 100, 220);
+  background-color: white;
+}
+
+#biotitle {
+  color: rgb(30, 30, 30);
+  text-align: center;
+}
+
+#projectstitle {
+  font-family: Ropa Sans;
+  color: rgb(90, 100, 220);
+  text-align: center;
+}
+
+#contacttitle {
+  font-family: Ropa Sans;
+  color: black;
+}
+#fccButton {
+  background: url(https://yt3.ggpht.com/-bWUaHwGz7To/AAAAAAAAAAI/AAAAAAAAAAA/xEUD6X5iT2Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg)
+    no-repeat;
+}
+footer {
+  color: rgb(25, 25, 25);
 }

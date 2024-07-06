@@ -1,82 +1,98 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My Blog</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-      charset="utf-8"
-    />
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="expires" content="0" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <link rel="stylesheet" href="/styles/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
-    />
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  
 
-  <body>
-    <nav class="level">
-      <div class="block level-item">
-        <span id="title"> Welcome to My Page! </span>
-      </div>
-    </nav>
-    <nav class="level">
-      <div id="pageIntro" class="block level-item">
-        <p>This is the beginning of my website home page.</p>
-        <p>It will eventually contain a list of links to all my blogs.</p>
-      </div>
-    </nav>
-    <nav class="level">
-      <div id="personalIntro" class="block level-item">
-        <figure class="image is-128x128">
-          <img
-            class="is-rounded"
-            src="imgs/profile.jpg"
-            alt="Peter's profile pic"
-          />
-        </figure>
 
-        <p>
-          Hi im Peter, I have been a gardener since 2014 but due to ongoing
-          injuries and pestering from my wife and family i am continuing my
-          programming journey I started it 2007
-        </p>
+
+
+<!--Home Page -->
+<header class="header py-5 bg-warning" id="home">
+  <div class="row">
+    <div class="col-lg-8 ">
+      <h1 class="  display-1 text-center card border-secondary w-50" >Peter Dravitzki</h1>
+      <p class=" text-center card border-tertiary w-25">Web Developer<br>Data Analyst</p>
+    </div>
+  </div>
+    <p id="brief" class="col-lg-4">A job done right, is a job done. Right?</p>
+  </div>
+</header>
+
+<!-- Navigation menu -->
+<nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-primary" id="nav" role="navigation"> 
+  <ul class="nav navbar-nav navbar-right">
+    <li><a href="#home" id="homeBtn" class="navbar-brand"><b>Home</b></a></li>
+    <li><a href="#aboutme" id="aboutBtn" class="navbar-brand"><b>About Me</b></a></li>
+    <li><a href="#projects" id="projectsBtn" class="navbar-brand"><b>Projects</b></a></li>
+    <li><a href="#contact" id="contactBtn" class="navbar-brand"><b>Contact</b></a></li>
+  </ul>
+</nav>
+
+<section id="aboutme">
+<div class="container">
+  <h1 id="biotitle">About Me</h1><hr>
+  <div class="row">
+    <div class="col-lg-6 col-md-2">
+  <img id="mypic" class="img-responsive img-rounded w-50" src="./imgs/Peter-Profile.png">
+    </div>
+    <div class="col-lg-4 col-md-2">
+  <p id="bio">I'm a passionate and driven web developer. I have honed my skills in HTML, CSS, JavaScript, and various frameworks such as React and Node.js.
+
+    Having spent time at Dev Academy completing the Certificate in Applied Software Development I gained experience working in an Agile environment in roles in different projects including Backend Lead, Frontend Lead, Git Lead being most comfortable in the Backend Lead role.
+    
+    Driven by a desire to constantly improve, I actively seek out new challenges and opportunities to expand my knowledge. Whether it's building responsive and visually appealing websites or delving into the intricacies of backend development, I approach each project with a combination of creativity and analytical thinking.
+    
+    As I embark on my journey to secure my next job in tech, I am eager to leverage my skills and passion for web development to contribute meaningfully to a dynamic and innovative team.</p>
+    </div>
+  </div>
+</div>
+</section> <!--END ABOUT ME SECTION-->
+
+
+<section id="projects">
+<div class="container">
+  <div class="row">
+    <h1 id="projectstitle">Some of my work...(coming soon)</h1><hr>
+<img src="https://cdn1.iconfinder.com/data/icons/general-9/500/laptop-512.png" class="col-md-4 img-responsive">
+<img src="https://cdn1.iconfinder.com/data/icons/general-9/500/laptop-512.png" class="col-md-4 img-responsive">
+<img src="https://cdn1.iconfinder.com/data/icons/general-9/500/laptop-512.png" class="col-md-4 img-responsive">
+<img src="https://cdn1.iconfinder.com/data/icons/general-9/500/laptop-512.png" class="col-md-4 img-responsive">
+<img src="https://cdn1.iconfinder.com/data/icons/general-9/500/laptop-512.png" class="col-md-4 img-responsive">
+<img src="https://cdn1.iconfinder.com/data/icons/general-9/500/laptop-512.png" class="col-md-4 img-responsive">
+  </div>
+</div>
+</section><!--END PORTFOLIO SECTION-->
+
+<section id="contact">
+<div class="container">
+  <h1 class="text-center" id="contacttitle"><b>Lets Talk</b></h1>
+    <div class="row">
+      <div class="col-lg-3">
+        <form>
+          <input type="text" id="contactName" placeholder="Name">
+          <input type="text" id="email" placeholder="E-Mail">
+          <input type="text" id="subject" placeholder="Subject">
+          <textarea type="text" id="message"></textarea>
+          <br>
+          <button class="btn btn-info" type="submit">Send</button>
+        </form>
       </div>
-    </nav>
-    <nav class="level">
-      <div id="links" class="block level-item level">
-        <p class="block level-item">
-          <a href="blog/te-houtaewa-template.html">Te Houtaewa</a>
-        </p>
-        <p class="block level-item">
-          <a href="blog/inlineBlockDifferencesBlog.html"
-            >Inline vs Inline-Block</a
-          >
-        </p>
-        <p class="block level-item">
-          <a href="blog/emotional-intelligence.html">Emotional Intelligence</a>
-        </p>
-        <p class="block level-item">
-          <a href="blog/neuroplasticity.html">Neuroplasticity</a>
-        </p>
-        <p class="block level-item">
-          <a href="blog/learning-plan.html">Learning Plan</a>
-        </p>
-        <p class="block level-item">
-          <a href="blog/identity-values.html">Identity and values</a>
-        </p>
-        <p class="block level-item">
-          <a href="blog/foundations-reflections.html"
-            >Foundations Reflections</a
-          >
-        </p>
-        <p class="block level-item last-block">
-          <a href="blog/problem-solving.html">Problem Solving</a>
-        </p>
+    
+  
+   <div class="col-lg-3">
+    
+    
+    <a href="https://github.com/peter-dravitzki"><img id="github" src="./imgs/github-mark.png"></img></a>
       </div>
-    </nav>
-  </body>
+ </div>
+</section><!--END CONTACT SECTION-->
+<footer>copyright 2024 Peter Dravitzki</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
